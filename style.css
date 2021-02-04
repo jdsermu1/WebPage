@@ -5,12 +5,9 @@ body{
     background-color: #191922;
     color: white
 }
-
-
 #main_content{
     padding: 10px;
 }
-
 #main_content, .card{
     margin-top: 10px;
     background-color: #242530
@@ -20,26 +17,19 @@ body{
     background-color: #242530;
     padding-top: 10px;
 }
-
 #name_tag{
     font-size: 1.3em;
 }
-
 .card-body>h2{
     font-size: 1em;
 }
-
 #presentation_image{
     margin: 1em 0em;
 }
-
 hr{
     background-color: white;
     width: 100%;
 }
-
-
-
 .card-body dl, .card-body li{
     font-size: .8em;
 }
@@ -96,6 +86,18 @@ section h3{
 
 #projects_section{
     margin: auto;
+}
+
+#about_section{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('robocol.jpg');;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #23252F;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 .carousel{
