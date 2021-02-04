@@ -1,0 +1,161 @@
+*{
+    block-size: border-box;
+}
+body{
+    background-color: #191922;
+    color: white
+}
+
+
+#main_content{
+    padding: 10px;
+}
+
+#main_content, .card{
+    margin-top: 10px;
+    background-color: #242530
+}
+
+.card{
+    background-color: #242530;
+    padding-top: 10px;
+}
+
+#name_tag{
+    font-size: 1.3em;
+}
+
+.card-body>h2{
+    font-size: 1em;
+}
+
+#presentation_image{
+    margin: 1em 0em;
+}
+
+hr{
+    background-color: white;
+    width: 100%;
+}
+
+
+
+.card-body dl, .card-body li{
+    font-size: .8em;
+}
+
+.progress{
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 1em;
+}
+
+.border-0{
+    background-color: #2C2D38;
+    padding: 1em;
+    margin-right: 1em;
+}
+
+.progress-bar{
+    background-color: #ea5600;
+}
+
+.card ul {
+    list-style: none;
+}
+
+.card ul li:before {
+    content: '✓';
+    font-size: 2em;
+}
+
+#progress_bars{
+    padding: 0px 30px;
+}
+
+section{
+    padding: 20px;
+}
+
+section h2{
+    font-size: 1.7em;
+}
+
+section h3{
+    font-size: 1.5em;
+}
+
+#projects_section .card, #experience_section .card{
+    margin-right: 10px;
+    max-width: 18rem;
+}
+
+#experience_section .card{
+    background-color: #2C2D38;
+}
+
+#projects_section{
+    margin: auto;
+}
+
+.carousel{
+    width: 70%;
+    margin-left: 10px;
+    margin-bottom: 3em;
+}
+
+.w-60{
+    width: 60%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+#experience_section article{
+    margin: 1em 1em;
+}
+
+.keywords{
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.job{
+    margin: 1em;
+}
+
+.icon_contact{
+    margin: 0em 0em 0em 2em;
+}
+
+footer{
+    margin-top: 3em;
+    padding-top: 2em;
+    background-color: #242530;
+}
+
+a{
+    color: white;
+}
+
+footer ul{
+    list-style-type: None;
+}
+
+.vertically_center{display: flex;
+    align-items: center;}
+.embed-responsive{
+    width: 70%;
+}
+
+
+
